@@ -5,9 +5,12 @@
   cursor: pointer;
   background-color: red;
   /* transition-property: background-color color width; the propery which we want to transform */
-  transition-property: all; /*if we have more then one transition property we can use all */
-  transition-duration: 2s; /*duration of the transform */
-  transition-delay: 1s; /* it will wait for delay time to start change */
+  /* transition-property: all; /*if we have more then one transition property we can use all */
+  /* transition-duration: 2s; duration of the transform */
+  /* transition-delay: 1s; it will wait for delay time to start change */ 
+
+  /* shorthand syntax */
+  transition: background-color 3s ease-in-out 1s;    /* property duration timing-funciton delay */
 }
 .button:hover {
   background-color: green;
