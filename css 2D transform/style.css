@@ -2,10 +2,19 @@
     width: 300px;
     display: block;
     margin: auto;
-    margin-top: 200px;
     transition: transform 2s;
 }
 
 .ironman-image:hover{
-    transform: translate(500px,-200px) 
+    transform: translate(500px,200px)  /* change the position */
+}
+
+.ironman-image-scale:hover{
+    transform: scale(2);   /* change the size height width */
+}
+.ironman-image-rotate:hover{
+    transform: rotate(20deg);   /* change the angle, other value ---> turn--> for number of rotation */
+}
+.ironman-image-skew:hover{
+    transform: skewX(30deg);   /* change the angle, other value ---> turn--> for number of rotation */
 }
