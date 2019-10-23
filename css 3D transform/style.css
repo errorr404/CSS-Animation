@@ -12,3 +12,7 @@ div{
 .ironman-image:hover{
     transform: translateZ(700px)  /* change the position in Z axis*/
 }
+
+.ironman-image-rotate:hover{
+    transform: rotateZ(30deg)
+}
